@@ -9,9 +9,9 @@ export class AppComponent {
   showText: boolean = false;
   log = [];
 
-  toggleText() {
+  toggle() {
     this.showText = !this.showText;
-    this.log.push(this.log.length + 1);
+    // this.log.push(this.log.length + 1);
+    this.log.push(new Date());
   }
-
 }
